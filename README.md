@@ -2,6 +2,9 @@
 
 This repository is used to store and deploy this website : https://escande.ovh/
 
+The develop version of this site is deployed on Github Pages : https://guillaumeescande.github.io/gescande_site_perso/
+
+
 ## Dependencies
 
 This Website is based on vanilla HTML and CSS with the following dependencies :
