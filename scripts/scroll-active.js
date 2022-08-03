@@ -17,6 +17,7 @@ $( document ).ready(function() {
         section.forEach(sec => {
             let top = window.scrollY;
             let offset = sec.offsetTop;
+            offset = offset - 80;
             let height = sec.offsetHeight;
             let id = sec.getAttribute('id');
 

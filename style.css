@@ -206,12 +206,12 @@ ul{
   list-style-type: circle;
 }
 
-.column {
+.column_3 {
   float: left;
   width: 30%;
 }
 
-.column img{
+.column_3 img{
   width: 70%;
 }
 .row:after {
@@ -328,4 +328,43 @@ table, th, td {
 /* setting dot to the right if the card is odd */
 .card:nth-child(even) > .info > .title::before {
   right: -45px;
+}
+
+
+
+.skill-card{
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  display: float;
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+}
+
+.skill-card h3{
+  float: left;
+  width: 80%;
+}
+
+.skill-card .score{
+  float: right;
+  width: 20%;
+  min-width: 150px;
+}
+.skill-card img{
+  float: right;
+  width: 15%;
+  min-width: 150px; 
+  padding: 10px;
+}
+.skill-card p{
+  float: left;
+  width: 80%;
+}
+.skill-card ul{
+  float: left;
+  width: 80%;
 }
